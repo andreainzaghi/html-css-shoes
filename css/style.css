@@ -1,0 +1,71 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.logo img{
+
+  height: 100px;
+  margin-right: 250px;
+
+
+}
+
+/* .logo img:hover{
+  height: 100px;
+  margin-right: 250px;
+  background-image: url(../img/nik1.png);
+  background-size: cover; */
+
+
+}
+
+header{
+  background-color: white;
+  position: fixed;
+  border-style: solid ;
+  width: 100%;
+}
+
+.logo, nav, nav li{
+
+  display: inline-block;
+}
+
+nav li{
+  list-style: none;
+  padding: 30px;
+
+
+}
+
+nav li a{
+text-decoration: none;
+
+}
+
+nav li:hover{
+
+border-bottom: 2px solid black;
+
+}
+
+.logo, nav {
+  vertical-align: middle;
+}
+
+.novita{
+  text-align: center;
+  height: 100vh;
+  margin: 0px;
+
+}
+.grigio{
+  background-color: #DADADA;
+}
+
+.blocco{
+
+  padding:150px;
+}
